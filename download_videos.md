@@ -41,14 +41,14 @@ chmod +x ~/download_videos.sh
 
 ### 3. **अगर YouTube से "Share" Menu से डाउनलोड चाहते हैं:**
 
-- `~/bin/termux-url-opener` फाइल बनाइए और उसमें ये लाइन डालिए:
+- `~/bin/termux-url-opener` bin folder बनाइए और उसमें ये termux-url-opener को bin folder में डालिए:
   ```bash
   #!/data/data/com.termux/files/usr/bin/bash
-  bash ~/download_videos.sh \"$1\"
+  mkdir -p ~/bin
+  cp termux-url-opener ~/bin/termux-url-opener
   ```
 - Executable बनाईये:
   ```bash
-  mkdir -p ~/bin
   chmod +x ~/bin/termux-url-opener
   ```
 - अब YouTube ऐप में कोई video -> Share -> Termux पर tap करें
