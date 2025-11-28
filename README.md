@@ -1,5 +1,3 @@
-yah computer per YouTube se video download karne ki script Hai Main chahta Hun iske liye ek badhiya Si redmi file Banakar ke do pura data copy pest karne layak hona chahie 
-
 @echo off
 setlocal enabledelayedexpansion
 
